@@ -120,7 +120,7 @@ double SegmentedLeastSquares(Point* points, int n, int k, SegmentPoints* segment
 }
 
 int main(){
-    FILE* file = fopen("hw6test.txt", "r");
+    FILE* file = fopen("test.txt", "r");
     Point* points = (Point*)malloc(110 * sizeof(Point));
     int n = 0;
     while (fscanf(file, "%lf %lf", &points[n].x, &points[n].y) == 2) {
