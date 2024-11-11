@@ -10,4 +10,4 @@ We have an integer k, and to find the best fit for the points with exactly k lin
 
 So, given k ≤ n, the problem is to find a partition P into exactly k segments so as to minimize the sum of the least squares error over the segments in the partition. 
 
-Load in the points in the file test.txt，(first column is x-coordinates, and second column is y-coordinates) and determine the optimal partition of the points into k = 4 partitions. 
+Load in the points in the file test.txt(first column is x-coordinates, and second column is y-coordinates) and determine the optimal partition of the points into k = 4 partitions. 
